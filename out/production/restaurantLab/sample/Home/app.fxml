@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0" prefWidth="700.0" style="-fx-background-color: #2E3348;" xmlns="http://javafx.com/javafx/8.0.261" xmlns:fx="http://javafx.com/fxml/1" fx:controller="sample.Home.HomeController">
+   <children>
+      <Button fx:id="menuButton" layoutX="272.0" layoutY="111.0" mnemonicParsing="false" prefHeight="103.0" prefWidth="153.0" style="-fx-background-color: grey;" text="Edit Menu" textAlignment="CENTER" textFill="WHITE" wrapText="true">
+         <font>
+            <Font name="Montserrat Thin" size="24.0" />
+         </font>
+      </Button>
+      <Button fx:id="employeeButton" layoutX="445.0" layoutY="111.0" mnemonicParsing="false" prefHeight="103.0" prefWidth="153.0" style="-fx-background-color: grey;" text="Employee" textAlignment="CENTER" textFill="WHITE" wrapText="true">
+         <font>
+            <Font name="Montserrat Thin" size="24.0" />
+         </font>
+      </Button>
+      <Button fx:id="orderButton" layoutX="272.0" layoutY="230.0" mnemonicParsing="false" prefHeight="103.0" prefWidth="153.0" style="-fx-background-color: grey;" text="Order" textAlignment="CENTER" textFill="WHITE" wrapText="true">
+         <font>
+            <Font name="Montserrat Thin" size="24.0" />
+         </font>
+      </Button>
+      <Button fx:id="reservationButton" layoutX="102.0" layoutY="230.0" mnemonicParsing="false" prefHeight="103.0" prefWidth="153.0" style="-fx-background-color: grey;" text="Reservation" textAlignment="CENTER" textFill="WHITE" wrapText="true">
+         <font>
+            <Font name="Montserrat Thin" size="24.0" />
+         </font>
+      </Button>
+      <Button fx:id="signUpAdminButton" layoutX="102.0" layoutY="111.0" mnemonicParsing="false" prefHeight="103.0" prefWidth="153.0" style="-fx-background-color: grey;" text="New Admin User" textAlignment="CENTER" textFill="WHITE" wrapText="true">
+         <font>
+            <Font name="Montserrat Thin" size="24.0" />
+         </font>
+      </Button>
+      <Label layoutX="-1.0" prefHeight="70.0" prefWidth="700.0" style="-fx-background-color: white; -fx-alignment: center;" text="Restaurant Panel" textAlignment="CENTER">
+         <font>
+            <Font name="Montserrat Thin" size="64.0" />
+         </font>
+      </Label>
+   </children>
+</AnchorPane>
